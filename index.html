@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <!-- This code is from W3 schools-->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!-- Navbar -->
+    <div id="mySidenav" class="sidenav">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+
+        <a href="index.html">Home</a>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Model <strong>˅</strong></button>
+            <div class="dropdown-content">
+                <a href="model.html">Development Process</a>
+                <a href="inspiration.html">Inspiration</a>
+                <a href="tilt.html">Tilt Brush</a>
+                <a href="mymodel.html">My Model</a>
+            </div>
+        </div>
+
+
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <h1>3D Object</h1>
+    <div class="models">
+        <div class="left other">
+            <!-- This is from Sketchfab-->
+            <div class="sketchfab-embed-wrapper"><iframe width="520" height="360" src="https://sketchfab.com/models/c41d657879d449afb909009aca33b6f0/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                <h2>Michael's Model</h2>
+            </div>
+        </div>
+
+        <div class="left me">
+            <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/1db981736a974a128900832f6eaa59bd/embed?autospin=0.2&amp;autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+            </div>
+            <h2>My Model</h2>
+        </div>
+
+    </div>
+
+
+
+    <div class="left other">
+        <div class="sketchfab-embed-wrapper"><iframe width="520" height="360" src="https://sketchfab.com/models/bb44ae081c734ae7904b0da5594a511c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+        </div>
+        <h2>Ben's Model</h2>
+    </div>
+
+
+</body>
+</html>
+
